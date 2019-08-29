@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack",
-    "build": "webpack --mode=development --colors --config webpack.config.js"
+    "build": "webpack --mode=production --config config/webpack.config.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
     "webpack-cli": "^3.3.7"
   },
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.15",
+    "vue": "^2.6.10"
   }
 }
