@@ -1,5 +1,5 @@
 # webpackMyselfDemo
-自学的webpack
+自学的webpack4
 
 1、webpack4 将webpack内核与webpack-cli进行了分离，即需要同时安装
 
