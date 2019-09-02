@@ -57,7 +57,7 @@
 /******/ 	// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 	// Promise = chunk loading, 0 = chunk loaded
 /******/ 	var installedChunks = {
-/******/ 		2: 0
+/******/ 		1: 0
 /******/ 	};
 /******/
 /******/ 	var deferredModules = [];
@@ -148,14 +148,14 @@
 /******/
 /******/
 /******/ 	// add entry module to deferred list
-/******/ 	deferredModules.push([6,0]);
+/******/ 	deferredModules.push([2,0]);
 /******/ 	// run deferred modules when ready
 /******/ 	return checkDeferredModules();
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 6:
+/***/ 2:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -164,14 +164,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue_dist_vue_common_dev__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_dist_vue_common_dev__WEBPACK_IMPORTED_MODULE_0__);
 
 
-function abuild() {
+function add() {
     return 'hello world'
 }
 
 new vue_dist_vue_common_dev__WEBPACK_IMPORTED_MODULE_0___default.a({
     el: '#app',
     data: {
-      message: abuild()
+      message: add()
     }
 })
 
