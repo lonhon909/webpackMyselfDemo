@@ -77,14 +77,14 @@ module.exports = {
                 test: /\.js$/,
                 use: {
                     loader: "babel-loader",
-                    options: {
+                    /* options: {
                         presets: ["@babel/preset-env"],
                         plugins: [
                             ["@babel/plugin-proposal-decorators", { "legacy": true }],
                             ["@babel/plugin-proposal-class-properties", { "loose" : true }],
                             "@babel/plugin-transform-runtime"
                         ]
-                    },
+                    }, */
                 },
                 exclude: /node_modules/
             }

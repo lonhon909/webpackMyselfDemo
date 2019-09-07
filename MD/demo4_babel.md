@@ -7,10 +7,11 @@ npm install babel-loader @babel/core @babel-preset-env -D
 
 ```js
 // 在根目录下创建.babelrc文件
-{
+{   // presets是一系列plugin的集合
     "presets": [
         "@babel/preset-env"
     ],
+    // 一个plugin就是一个功能
     "plugins": [
         "@babel/plugin-proposal-class-properties", // 支持es6 类class Preson { name = 'xxx' }这种写法
         // npm i -D @babel/plugin-transform-runtime
